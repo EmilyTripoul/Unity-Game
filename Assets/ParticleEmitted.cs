@@ -15,7 +15,7 @@ public class ParticleEmitted : MonoBehaviour
     // Use this for initialization
     void Start () {
     }
-
+    
     IEnumerator FadeAndKill()
     {
         MeshRenderer renderer = GetComponent<MeshRenderer>();
